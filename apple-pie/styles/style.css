@@ -2,11 +2,11 @@
 /* Reset default browser styles and provide a consistent starting point */
 html { 
   
-  font-size: 40px;
+  font-size: 30px;
 }
 
 *, *:before, *:after {
-  box-sizing: inherit;
+  box-sizing: border-box;
 }
 
 body, h1, h2, h3, h4, h5, h6, p, ol, ul {
@@ -26,6 +26,7 @@ body {
 .hero-image {
   height: 500px;
   background-image: url("../images/apple-pie.jpg");
+  background-size: cover;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -34,3 +35,5 @@ body {
 .hero-text{ 
   color: azure;
 }
+
+
